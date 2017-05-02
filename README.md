@@ -30,3 +30,11 @@ Phoenix.Tracker.list(TrackerTest.Tracker, "test") |> Enum.count
 # Node 2
 > 102
 ```
+
+If you change N from 51 to 50, it works fine, and you get
+
+> falling back to sending entire crdt
+
+instead of 
+
+> sending delta generation 1
