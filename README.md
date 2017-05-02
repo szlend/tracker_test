@@ -1,6 +1,6 @@
 # TrackerTest
 
-When Phoenix.Tracker nodes connect for the first time, when boths nodes already hold presences. Their state will desync.
+When Phoenix.Tracker nodes connect for the first time, and boths nodes already hold presences, their state will desync.
 
 # Steps to reproduce
 
