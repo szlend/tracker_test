@@ -1,4 +1,8 @@
-# TrackerTest - How to reproduce
+# TrackerTest
+
+When Phoenix.Tracker nodes connect for the first time, when boths nodes already hold presences. Their state will desync.
+
+# Steps to reproduce
 
 ## Node 1
 iex --sname n1 --cookie test -S mix
@@ -38,3 +42,5 @@ If you change N from 51 to 50, it works fine, and you get
 instead of 
 
 > sending delta generation 1
+
+Anything above 50 appears to fail.
